@@ -1,0 +1,33 @@
+- ## Project 5: CreativePainter.io  - MSB-FY23C1
+- Description  
+	- Completing tasks utilizing HTML, CSS, API calls and JavaScript to make sure CreativePainter.io works smoothly and as designed.  
+- Goals  
+	- [ ] I've been hired to create a web app (creativepainter.io) that uses AI (Artificial Intelligence) to generate images based on civil rights history.  
+- Planning  
+	- Issues:  
+		- [ ] Milestone 1: HTML, CSS  
+			- [ ] Bootstrapping TailwindCSS  
+			- [ ] Validate initial push to Vercel  
+			- [ ] HTML design  
+				- [ ] Create templates, layouts and basic structures for header, main section and footer  
+				- [ ] Decide on how many images to show on the page  
+			- [ ] CSS design  
+				- Decide on correct balance of colors, tone and theme strategy  
+				- Design a smooth user experience  
+				- Addressing different needs by providing user friendly style  
+				- Minimalist design and eye catching font family, size and weight  
+				- Implement sufficient use of spacing, positioning, and proximity  
+				- Adapt consistency in design  
+			- [ ] Test HTML & CSS Wirefame on Vercel  
+		- [ ] Milestone 2: API  
+			- [ ] API research  
+			- [ ] API calls  
+			- [ ] API endpoint  
+		- [ ] Milestone 3: JS  
+			- [ ] Scope out the logic of JS solution  
+				- 1. Bring in all DOM elements  
+				- 2. listen for the "Enter" key press on the search-box  
+				- 3. When a user hits enter on their keyboard, send an API request  
+				- 4. use the value the user types to send an API GET request  
+				- 5. when the images comes back, display to user in the images by .appendChild()  
+				- 6. Display  
