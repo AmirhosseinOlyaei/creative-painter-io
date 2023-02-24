@@ -15,7 +15,7 @@
 				- Decide on correct balance of colors, tone and theme strategy  
 				- Design a smooth user experience  
 				- Addressing different needs by providing user friendly style  
-				- Minimalist design and eye catching font family, size and weight  
+				- Minimalist design and eye-catching font family, size and weight  
 				- Implement sufficient use of spacing, positioning, and proximity  
 				- Adapt consistency in design  
 			- [ ] Test HTML & CSS Wirefame on Vercel  
