@@ -1,6 +1,7 @@
-import config from "config";
 
 // 1. get all the html elements DOM
+import config from "../config.js";
+
 const searchBoxEl = document.querySelector('#search-box');
 const imageResults = document.querySelector('#images');
 
