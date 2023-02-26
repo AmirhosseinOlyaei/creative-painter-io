@@ -8,6 +8,8 @@ console.log(searchBoxEl); // Add this line
 
 // 2. listen to the event on the prompt input
 searchBoxEl.addEventListener('blur', async () => {
+    // Clear the existing images before making the API call
+    imageResults.innerHTML = '';
     // 2a. on the blur event, call the image generate API
     const response = await fetch('https://api.openai.com/v1/images/generations', {
         method: 'POST',
@@ -30,4 +32,5 @@ searchBoxEl.addEventListener('blur', async () => {
     const imgEl = document.createElement('img');
     imgEl.src = imgUrl;
     imageResults.appendChild(imgEl);
+
 });

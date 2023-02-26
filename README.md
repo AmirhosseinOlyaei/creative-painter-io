@@ -27,7 +27,7 @@
 			- [x] Scope out the logic of JS solution  
 				- Bring in all DOM elements  
                 - Listen to the event on the prompt input  
+                - Clear the existing images before making the API call
             	- On the blur event, call the image generate API  
                 - Show the image in the browser  
-                - Refresh the page on every call
                 - Add a loading animation while waiting for the content to load
