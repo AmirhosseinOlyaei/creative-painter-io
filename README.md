@@ -30,4 +30,4 @@
                 - Clear the existing images before making the API call
             	- On the blur event, call the image generate API  
                 - Show the image in the browser  
-                - Add a loading animation while waiting for the content to load
+                - Add a loading animation while content is loading 

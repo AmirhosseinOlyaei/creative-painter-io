@@ -1,3 +1,4 @@
+
 ###
 
 # curl https://api.openai.com/v1/images/generations
@@ -8,8 +9,9 @@
 #    "n": 1,
 #    "size": "1024x1024"
 #  }'
+
 POST https://api.openai.com/v1/images/generations
-Authorization: Bearer $OPENAI_API_KEY
+Authorization: Bearer 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
 Content-Type: application/json
 
 {

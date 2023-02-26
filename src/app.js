@@ -17,7 +17,6 @@ searchBoxEl.addEventListener('blur', async () => {
     loadingGifEl.style.borderRadius = '25%'; // set the border-radius of the loading GIF
     imageResults.appendChild(loadingGifEl);
 
-
     // 2b. on the blur event, call the image generate API
     const response = await fetch('https://api.openai.com/v1/images/generations', {
         method: 'POST',
