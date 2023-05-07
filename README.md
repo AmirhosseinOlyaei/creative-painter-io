@@ -1,3 +1,4 @@
+![](https://i.imgur.com/9DUK4w1.png)
 - ## Project 5: CreativePainter.io - MSB-FY23C1
 - Description  
 	- Completing tasks utilizing HTML, CSS, API calls and JavaScript to make sure CreativePainter.io works smoothly and as designed.  
