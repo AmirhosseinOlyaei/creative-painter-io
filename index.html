@@ -1,30 +1,33 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!--    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">-->
+    <!--    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">-->
     <link rel="stylesheet" href="./dist/styles.css">
     <title>AI Creative Image Painter</title>
 </head>
-<body>
-<div class="flex flex-col justify-center items-center my-12">
 
-    <div class="w-1/2 ">
-        <h2 class="text-4xl text-center mt-6 mb-2">AI Creative Image Painter</h2>
-        <p class="text-center mb-8">based on civil rights history</p>
-        <input type="search" id="search-box" placeholder="African American leaders in America"
-               class="p-3 w-full border-2 border-gray-400 rounded-xl ">
-        <p class="text-sm mx-1">Type your search above to get started </p>
+<body>
+    <div class="flex flex-col items-center justify-center my-12">
+
+        <div class="w-1/2 ">
+            <h2 class="mt-6 mb-2 text-4xl text-center">AI Creative Image Painter</h2>
+            <p class="mb-8 text-center">based on civil rights movement</p>
+            <input type="search" id="search-box" placeholder="African American leaders in America"
+                class="w-full p-3 border-2 border-gray-400 rounded-xl ">
+            <p class="mx-1 text-sm">Type your search above to get started </p>
+        </div>
+
+        <div id="images" class="mt-6 space-y-3"></div>
     </div>
 
-    <div id="images" class="space-y-3 mt-6"></div>
-</div>
 
-
-<script src="config.js" type="module"></script>
-<script src="src/app.js" type="module"></script>
+    <script src="config.js" type="module"></script>
+    <script src="src/app.js" type="module"></script>
 </body>
+
 </html>
